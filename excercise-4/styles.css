@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 1 1 30%;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+@media (max-width: 600px) {
+  article {
+    flex-basis: 100%;
+  }
+}

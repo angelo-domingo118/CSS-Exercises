@@ -1,0 +1,30 @@
+* {
+  color: white;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 5mm solid black;
+  margin: auto;
+  padding: 20px;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 7em dotted yellow;
+  margin: 10vh 20px;
+  padding: 10px;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border: 10px ridge violet;
+  margin-left: 600px;
+  padding: 2mm;
+}
