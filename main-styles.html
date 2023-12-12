@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookshelf</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .bookshelf {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .book {
+      width: 150px;
+      height: 200px;
+      margin: 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #333;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .book:hover {
+      background-color: #f0f0f0;
+    }
+
+    .book:nth-child(odd) {
+      background-color: #e6f7ff;
+    }
+
+    .book:nth-child(even) {
+      background-color: #ccf2ff;
+    }
+  </style>
+</head>
+<body>
+
+<div class="bookshelf">
+  <a href="excercise-1\index.html" class="book">excercise-1</a>
+  <a href="excercise-2\index.html" class="book">excercise-2</a>
+  <a href="excercise-3\index.html" class="book">excercise-3</a>
+  <a href="excercise-4\index.html" class="book">excercise-4</a>
+  <a href="excercise-5\index.html" class="book">excercise-5</a>
+  <a href="excercise-6\index.html" class="book">excercise-6</a>
+  <a href="excercise-7\index.html" class="book">excercise-7</a>
+  <a href="excercise-8\index.html" class="book">excercise-8</a>
+  <a href="excercise-9\index.html" class="book">excercise-9</a>
+</div>
+
+</body>
+</html>
